@@ -1,0 +1,20 @@
+[
+  {
+    "nama": "Randi",
+    "id": 127222333,
+    "pekerjaan": "Programmer",
+    "Active": true
+  },
+  {
+    "nama": "Putri",
+    "umur": 128111555,
+    "pekerjaan": "Dokter",
+    "Active": true
+  },
+  {
+    "nama": "Eka",
+    "umur": 128111999,
+    "pekerjaan": "Admin",
+    "Active": false
+  }
+]
