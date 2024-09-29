@@ -21,7 +21,8 @@ app.get("/DATA/coba.json", (req, res) => {
 // Middleware untuk memeriksa domain lain hanya bisa mengakses coba.json
 app.use((req, res, next) => {
   const origin = req.get("origin");
-  if (origin && req.path !== "/DATA/coba.json") {
+  const allowPath = ["/DATA/coba.json", "/DATA/menu.json"];
+  if (origin && !allowPath.includes(req.path)) {
     return res.status(403).send("Access Forbidden");
   }
   // Middleware untuk melayani file static di public (untuk kebutuhan aplikasi sendiri)

@@ -1,6 +1,6 @@
 async function runFectch() {
   try {
-    const response = await fetch("http://127.0.0.1:3000/DATA/coba.json");
+    const response = await fetch("http://127.0.0.1:3000/DATA/menu.json");
     if (!response.ok) {
       throw new Error("Nertwork Response is Protblem" + response.statusText);
     }
