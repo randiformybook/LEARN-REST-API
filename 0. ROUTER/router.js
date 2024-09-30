@@ -21,7 +21,7 @@ app.get("/DATA/coba.json", (req, res) => {
 // Middleware untuk memeriksa domain lain hanya bisa mengakses coba.json
 app.use((req, res, next) => {
   const origin = req.get("origin");
-  const allowPath = ["/DATA/coba.json", "/DATA/menu.json"];
+  const allowPath = ["/DATA/coba.json", "/DATA/menu.json", "/img/"];
   if (origin && !allowPath.includes(req.path)) {
     return res.status(403).send("Access Forbidden");
   }

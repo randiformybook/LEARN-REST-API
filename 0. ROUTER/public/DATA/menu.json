@@ -5,28 +5,28 @@
       "nama": "Meat Lover",
       "deskripsi": "Irisan sosis sapi, daging sapi cincang",
       "harga": 49500,
-      "gambar": "meat-lover.jpg"
+      "gambar": "/img/meat-lovers.jpg"
     },
     {
       "kategori": "pizza",
       "nama": "Super Supreme",
       "deskripsi": "Daging Ayam dan Daging Sapi asap",
       "harga": 55000,
-      "gambar": "supreme.jpg"
+      "gambar": "/img/super-supreme.jpg"
     },
     {
       "kategori": "pizza",
       "nama": "Tuna Melt",
       "deskripsi": "Irisan daging Tuna",
       "harga": 65000,
-      "gambar": "tuna.jpg"
+      "gambar": "/img/tuna-melt.jpg"
     },
     {
       "kategori": "pizza",
       "nama": "American Favourite",
       "deskripsi": "Pepperoni Sapi, Daging sapi cincang dan Jamur",
       "harga": 75000,
-      "gambar": "american-fav.jpg"
+      "gambar": "/img/american-favourite.jpg"
     }
   ]
 }
