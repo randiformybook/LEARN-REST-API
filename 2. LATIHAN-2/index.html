@@ -17,7 +17,7 @@
       <div class="row mt-3">
         <div class="col">
           <!-- Example single danger button -->
-          <div class="btn-group btn-group-lg mb-3">
+          <div class="btn-group mb-3">
             <button
               type="button"
               class="btn btn-danger dropdown-toggle"
@@ -26,11 +26,27 @@
             >
               All Menu
             </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">All Menu</a></li>
-              <li><a class="dropdown-item" href="#">Pizza</a></li>
-              <li><a class="dropdown-item" href="#">Rice</a></li>
-              <li><a class="dropdown-item" href="#">Drink</a></li>
+            <ul class="dropdown-menu" id="menu-category">
+              <li>
+                <a class="dropdown-item" href="#" data-category="all"
+                  >All Menu</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#" data-category="pizza"
+                  >Pizza</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#" data-category="pasta & rice"
+                  >Pasta & Rice</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#" data-category="appetizer"
+                  >Appetizer</a
+                >
+              </li>
               <li><hr class="dropdown-divider" /></li>
             </ul>
           </div>
